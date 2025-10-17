@@ -1,0 +1,38 @@
+body{
+    background:white;
+    font-family:'Inter',Arial,sans-serif;
+    padding:40px;
+}
+
+.testimonial-card{
+    background:#222;
+    color: #fff;
+    border-radius:20px;
+    padding:32px 28px 24px 28px;
+    max-width: 380px;
+    margin:auto;
+}
+
+.testimonial-card .testimonial-text{
+    font-size:1.13rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.speech-bubble{
+    position:relative; /* Needed for the triangle positioning in the speech bubble */
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    left:50px;    /* adjust this value to center the triangle under your bubble */
+    bottom: -14px;   /* positions triangle at the bottom */
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: none;
+    border-bottom: 14px solid #222; /* same color as bubble background */
+}
+
