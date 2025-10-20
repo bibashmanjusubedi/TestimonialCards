@@ -9,8 +9,23 @@ body{
     flex-direction: row;
     justify-content: center;   /* centers the cards horizontally */
     gap: 2px;                  /* sets 2px gap between the cards */
-    min-width: 700px;
+    max-width: 700px;
+    background: black;
 }
+
+.testimonial-col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   /* centers the cards horizontally */
+    gap: 2px;                  /* sets 2px gap between the cards */
+    max-width: 700px;
+    background: yellow;
+}
+
+.testimonial-col1,.testimonial-col2{
+    margin:auto;
+}
+
 
 
 .testimonial-card1{
@@ -24,6 +39,11 @@ body{
     font-size:1.13rem;
     line-height: 1.6;
     margin-bottom: 24px;
+}
+
+
+.testimonial-card2 .testimonial-text{
+    margin:35px;
 }
 .speech-bubble {
     position: relative;
@@ -44,6 +64,7 @@ body{
 
 .user-info img{
     border-radius: 50%;
+    margin-top: 10px;
     width:100px;
     height:100px;
 }
@@ -64,4 +85,30 @@ body{
     flex:1;
     border-radius: 20px;
     max-width: 250px;
+}
+
+.testimonial-col2 .user-profile2{
+   display:flex;
+   width:100%;
+}
+
+.testimonial-col2 .user-profile2 .user-info {
+    flex-basis: 40%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    display:flex;
+    width:100%;
+}
+
+
+
+.testimonial-col2 .user-profile2 .details {
+    flex-basis: 60%;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.testimonial-col2 .user-profile2 .user-info .user-pic{
+    width:100%;
+    height:100%;
 }
