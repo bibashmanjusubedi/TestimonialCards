@@ -4,13 +4,20 @@ body{
     padding:40px;
 }
 
+.testimonial-col1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   /* centers the cards horizontally */
+    gap: 2px;                  /* sets 2px gap between the cards */
+    min-width: 700px;
+}
+
+
 .testimonial-card1{
     background:red;
     color: #fff;
     border-radius:20px;
-    padding:32px 28px 24px 28px;
-    max-width: 300px;
-    margin:auto;
+    padding:25px;
 }
 
 .testimonial-card1 .testimonial-text{
@@ -22,6 +29,7 @@ body{
     position: relative;
     background:black;
     border-radius: 10px;
+    margin:10px;
   }
 .speech-bubble:before {
     content: "";
@@ -46,3 +54,14 @@ body{
     gap: 16px;
 }
 
+.testimonial-card2{
+    background:blue;
+    color: #fff;
+    border-radius:20px;
+}
+
+.testimonial-card1,.testimonial-card2{
+    flex:1;
+    border-radius: 20px;
+    max-width: 250px;
+}
