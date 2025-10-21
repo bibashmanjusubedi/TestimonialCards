@@ -98,6 +98,9 @@ body{
     flex-grow: 0;
     display:flex;
     width:100%;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -111,4 +114,6 @@ body{
 .testimonial-col2 .user-profile2 .user-info .user-pic{
     width:100%;
     height:100%;
+    margin:20px;
+    border-radius: 70px;
 }
