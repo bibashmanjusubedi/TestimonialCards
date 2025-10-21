@@ -143,3 +143,41 @@ body{
     padding:10px;
 }
 
+
+.testimonial-col3 .selector-row{
+    display:flex;
+    gap:18px;
+    justify-content: center;
+}
+
+.arrow-btn{
+    background:none;
+    border:none;
+    font-size: 2em;
+    cursor:pointer;
+    color:#555;
+    padding:0 10px;
+}
+
+.avatar-row {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.4;
+    transition: opacity 0.2s, box-shadow 0.2s;
+  }
+
+  .avatar.main-avatar {
+    width:74px;
+    height:74px;
+    border: 3px solid #999;
+    opacity: 1;
+    box-shadow: 0 0 12px #ccc;
+  }
