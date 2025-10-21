@@ -117,3 +117,13 @@ body{
     margin:20px;
     border-radius: 70px;
 }
+
+.testimonial-col2 .user-profile2 .details{
+    background:green;
+    margin:10px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+    padding:10px;
+}
