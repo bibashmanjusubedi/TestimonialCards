@@ -10,7 +10,7 @@ body{
     justify-content: center;   /* centers the cards horizontally */
     gap: 2px;                  /* sets 2px gap between the cards */
     max-width: 700px;
-    background: black;
+    background: white;
 }
 
 .testimonial-col2 {
@@ -19,12 +19,12 @@ body{
     justify-content: center;   /* centers the cards horizontally */
     gap: 2px;                  /* sets 2px gap between the cards */
     max-width: 700px;
-    background: yellow;
+    background: white;
 }
 
 .testimonial-col3{
     display:flex;
-    background:gray;
+    background:white;
     max-width:700px;
     justify-content: center;
     margin:auto;
@@ -44,7 +44,7 @@ body{
 
 
 .testimonial-card1{
-    background:red;
+    background:white;
     color: #fff;
     border-radius:20px;
     padding:25px;
@@ -96,6 +96,10 @@ body{
     border-radius:20px;
 }
 
+.testimonial-card2 .testimonial-text{
+    color:black;
+}
+
 .testimonial-card1,.testimonial-card2{
     flex:1;
     border-radius: 20px;
@@ -134,7 +138,7 @@ body{
 }
 
 .testimonial-col2 .user-profile2 .details{
-    background:green;
+    background:black;
     margin:10px;
     border-radius: 10px;
     display:flex;
