@@ -72,7 +72,7 @@ body{
     top: 100%;
     left: 20px;
     width: 0;
-    border-top: 20px solid blue;
+    border-top: 20px solid black;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
 }
